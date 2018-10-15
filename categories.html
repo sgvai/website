@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title></title>
+
+    <link rel="stylesheet" href="http://www.sgvai.org/theme/css/main.css">
+    <link rel="stylesheet" href="http://www.sgvai.org/theme/css/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div><img src="/images/logo_sgvai.png" class="logo-img"/></div>
+        <div class="title"><a href="http://www.sgvai.org/">SGV-AI </a></div>
+        <div class="sub-title">San Gabriel Valley</div>
+        <div class="sub-title">Artificial Intelligence & Machine Learning Group</div>
+
+<p>
+    <div class="view"><a href="http://www.sgvai.org/">SGV-AI</a></div>
+    <div class="view"><a href="http://www.sgvai.org/pages/other-groups.html">Other Groups</a></div>
+</p>
+
+<!-- Social links -->
+
+      </header>
+      <section>
+<ul>
+</ul>
+      </section>
+      <footer>
+        <p><small>&copy; SGV-AI &mdash; Theme based on Sundown by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <!-- Scale fix -->
+    <script>
+      var metas = document.getElementsByTagName('meta');
+      var i;
+      
+      if (navigator.userAgent.match(/iPhone/i)) {
+        for (i=0; i<metas.length; i++) {
+          if (metas[i].name == "viewport") {
+            metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+          }
+        }
+      
+        document.addEventListener("gesturestart", gestureStart, false);
+      }
+
+      function gestureStart() {
+        for (i=0; i<metas.length; i++) {
+          if (metas[i].name == "viewport") {
+            metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
