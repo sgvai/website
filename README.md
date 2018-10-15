@@ -1,4 +1,4 @@
-# SGVAI Website
+# SGV-AI Website
 
 Source code for the San Gabriel Valley Artifical Intelligency and Machine Learning Group.
 The url for the site is http://www.sgvai.org

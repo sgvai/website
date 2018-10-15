@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Omwah'
-SITENAME = u'SGVAI'
+SITENAME = u'SGV-AI'
 SITESUBTITLE = 'San Gabriel Valley'
 SITESUBSUBTITLE = 'Artificial Intelligence & Machine Learning Group'
 SITELOGO = "/images/logo_sgvai.png"
