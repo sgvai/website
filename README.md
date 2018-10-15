@@ -34,3 +34,21 @@ You must then init and update the submodules, which include the site's theme.
 ```bash
 $ git submodule init && git submodule update
 ```
+
+
+## Building the site
+
+```bash
+    make html                        # (re)generate the web site
+    make clean                       # remove the generated files
+    make regenerate                  # regenerate files upon modification
+    make publish                     # generate using production settings
+    make serve                       # serve site at http://localhost:8000
+    make devserver                   # start/restart develop_server.sh
+    make stopserver                  # stop local server
+    make github                      # upload the web site via gh-pages
+```
+
+# NOTES:
+
+Using Pelican 3.6.x because 3.7.1 caused theme sidebar to stop rendering.
