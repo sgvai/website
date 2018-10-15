@@ -1,0 +1,3 @@
+[submodule "theme/sundown"]
+	path = theme/sundown
+	url = git@github.com:sgvai/pelican-sundown.git
