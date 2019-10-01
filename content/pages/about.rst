@@ -23,5 +23,5 @@ There are many ways to get involved and keep in touch.
 
 2. Join us on Slack:
 
-   Click the following link to get an invitation: `https://bit.ly/sgvtech <https://bit.ly/sgvtech>`_
+   Click the following link to get an invitation: `https://bit.ly/sgvtech_slack <https://bit.ly/sgvtech_slack>`_
 
